@@ -1,0 +1,45 @@
+.header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding:4px 0;
+    width:100%;
+    border-bottom: .1px solid lightgray;
+    z-index: 1000;
+    &__left {
+       display: flex;
+       align-items:center;
+    //    border:1px solid gray;   
+    }
+    &__icon {
+        height:40px;
+        display: flex;
+        align-items:center;
+        margin-right:10px;
+        transform: scale(1.2);
+    }
+
+    &__search{
+
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        color:gray;
+        height:28px;
+        background-color: #eef3f8;
+        border-radius:4px;
+
+        input{
+            margin-left:5px;
+            outline:none;
+            border: none;
+            background: none;
+        }
+    }
+    &__right{
+        // background:green;
+        display:flex;
+    }
+}
