@@ -11,3 +11,6 @@ I also made projects to get a grip of redux properly.
 This project is like little practical experience to make another webapp using react/svelte + firebase + some global state management library.
 this webapp made me practice a lot of things.
 
+#### Screenshot
+
+<img src="/ss/ss.png" width="500" alt='ss' />
