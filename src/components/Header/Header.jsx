@@ -22,7 +22,7 @@ const Header = () => {
     if(!user) return
     dispatch(logout())
     signOut(auth).then(()=>{
-      alert('logged out')
+      // alert('logged out')
     }).catch((err)=>{
       alert(err)
     })

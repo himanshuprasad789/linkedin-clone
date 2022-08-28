@@ -16,7 +16,7 @@ const Login = () => {
     e.preventDefault();
     signInWithEmailAndPassword(auth, email, password).then(userCredentials => {
       console.log(userCredentials);
-      alert('logged in')
+      // alert('logged in')
       // );
     }).catch(err=>alert(err));
   };
