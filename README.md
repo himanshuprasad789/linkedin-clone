@@ -8,6 +8,6 @@ I used Material UI for icons, and custom elements i needed.
 ##### Problem faced
 I had to make another project for learning new firebase.
 I also made projects to get a grip of redux properly.
-This project is like little practical experience to make another webapp using react/svelte + firebase + some global stage management library.
-this app was made me practice a lot of things.
+This project is like little practical experience to make another webapp using react/svelte + firebase + some global state management library.
+this webapp made me practice a lot of things.
 
